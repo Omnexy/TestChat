@@ -1,0 +1,177 @@
+html {
+    overflow-x: hidden;
+}
+
+#root {
+    text-align: center;
+    width: 100%;
+}
+
+.room {
+    width: 70%;
+    height: 550px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: #ff7934;
+    overflow: hidden;
+}
+
+.content {
+    font-family: "Times New Roman";
+    font-size: 20px;
+    text-align: center;
+    height: 450px;
+}
+
+.chathistory {
+    width:80%;
+    height: 80%;
+    float:left;
+    margin-left: 1%;
+    border-radius: 10px;
+    background: antiquewhite;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.chathistory ul {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 0;
+    overflow: hidden;
+}
+
+.chathistory ul li {
+    display: block;
+    list-style: none;
+    text-align: left;
+    border-bottom: 1px dotted #fff910;
+}
+
+.msgholder {
+    padding-left: 1%;
+    overflow: hidden;
+}
+
+.namediv {
+    margin-top: 4px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 10px;
+    float: left;
+    width: 15%;
+    height: 90%;
+    background: url("https://s8.hostingkartinok.com/uploads/images/2019/09/7040c3dc6b8839bdbe0b77d0802aaec0.png");
+    overflow: hidden;
+}
+
+.msgdiv {
+    padding-left: 1%;
+    float: left;
+    width: 70%;
+}
+
+.timediv {
+    font-size: 15px;
+    float: left;
+    width: 14%;
+    text-align: center;
+}
+
+.userlist {
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0px;
+}
+
+.userlist li {
+    background: #f5ff72;
+    display: block;
+    list-style: none;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    text-align: left;
+}
+
+.userlistdiv {
+    font-size: 15px;
+    width: 15%;
+    height: 80%;
+    float: right;
+    margin-right: 1%;
+    background: #a9ffcd;
+    border-radius: 5px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#linkholder {
+    float: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto;
+    width: 150px;
+    background: #4378ff;
+}
+
+#link {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    line-height: 1px;
+    width: 1px;
+    cursor: default;
+    opacity: 0;
+    background: none;
+}
+
+.inputer {
+    background: #00ff32;
+    text-align: center;
+    height: 100px;
+}
+
+.inputer textarea {
+    width: 80%;
+    float: left;
+    margin-left: 0.5%;
+    margin-top: 5px;
+    height: 70%;
+    border-radius: 5px;
+    resize: none;
+}
+
+.inputer button {
+    width: 18%;
+    float: right;
+    margin-right: 0.5%;
+    margin-top: 5px;
+    background: #d8db79;
+    height: 80%;
+    border-radius: 5px;
+}
+
+.nameform {
+    background: #15d306;
+    height: 100px;
+    width: 300px;
+    margin: 200px auto;
+    border-radius: 10px;
+}
+
+#nameinput {
+    float: left;
+    margin: 3% auto 0 15%;
+}
+
+#sendnamebtn {
+    float: left;
+    margin: 3% auto auto 5%;
+}
+
+.justtext {
+    width: 100%;
+    font: bold 16px;
+    text-align: center;
+    margin: 20px auto auto;
+}
